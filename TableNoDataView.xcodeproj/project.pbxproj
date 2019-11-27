@@ -17,6 +17,7 @@
 		C61D3433238D378600D1ABB7 /* TableNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = C61D3431238D378600D1ABB7 /* TableNoDataView.m */; };
 		C61D3434238D378600D1ABB7 /* UITableView+NoData.m in Sources */ = {isa = PBXBuildFile; fileRef = C61D3432238D378600D1ABB7 /* UITableView+NoData.m */; };
 		C61D3437238D379100D1ABB7 /* RxTureController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61D3436238D379100D1ABB7 /* RxTureController.m */; };
+		C6219F44238E4818008CB3D7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C6219F42238E4818008CB3D7 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		C61D3432238D378600D1ABB7 /* UITableView+NoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NoData.m"; sourceTree = "<group>"; };
 		C61D3435238D379100D1ABB7 /* RxTureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTureController.h; sourceTree = "<group>"; };
 		C61D3436238D379100D1ABB7 /* RxTureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxTureController.m; sourceTree = "<group>"; };
+		C6219F42238E4818008CB3D7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C6219F43238E4818008CB3D7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 		C61D3414238D373200D1ABB7 /* TableNoDataView */ = {
 			isa = PBXGroup;
 			children = (
+				C6219F41238E4818008CB3D7 /* Color */,
 				C61D3435238D379100D1ABB7 /* RxTureController.h */,
 				C61D3436238D379100D1ABB7 /* RxTureController.m */,
 				C61D342E238D378600D1ABB7 /* UITableView_NOData */,
@@ -97,6 +101,15 @@
 				C61D3432238D378600D1ABB7 /* UITableView+NoData.m */,
 			);
 			path = UITableView_NOData;
+			sourceTree = "<group>";
+		};
+		C6219F41238E4818008CB3D7 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C6219F43238E4818008CB3D7 /* UIColor+Hex.h */,
+				C6219F42238E4818008CB3D7 /* UIColor+Hex.m */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +187,7 @@
 				C61D3434238D378600D1ABB7 /* UITableView+NoData.m in Sources */,
 				C61D3437238D379100D1ABB7 /* RxTureController.m in Sources */,
 				C61D3428238D373400D1ABB7 /* main.m in Sources */,
+				C6219F44238E4818008CB3D7 /* UIColor+Hex.m in Sources */,
 				C61D341A238D373200D1ABB7 /* SceneDelegate.m in Sources */,
 				C61D3433238D378600D1ABB7 /* TableNoDataView.m in Sources */,
 			);
